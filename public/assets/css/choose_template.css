@@ -1,0 +1,182 @@
+/* Common CSS Starts */
+/* .pf{
+    position: fixed;
+    width: 100%;
+} */
+
+.p-35{
+    padding-bottom: 35px;
+}
+/* Common CSS Ends */
+
+/* About Section Starts */
+.about-sec-bg{
+    background-color: #111111;
+}
+
+.about-img-style{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: auto;
+    border-radius: 20px;
+}
+
+.about-total-content{
+    padding: 30px;
+}
+
+.about-header-style{
+    color: #bd8463;
+    font-weight: bolder;
+}
+
+.about-content-para{
+    font-size: 17px;
+    color: #fff;
+}
+/* About Section Ends */
+
+/* Our Menu Section Starts */
+.menu-sec-bg{
+    background-image: url(../images/tamplate-image/menu_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-sec-header{
+    color: #fff;
+    font-weight: bolder;
+}
+/* Our Menu Section Ends */
+
+
+
+
+.img-border-radius{
+    border-radius: 15px;
+}
+
+/*--==========Template About Starts==========--*/
+
+/*--==========Template Menu Starts==========--*/
+.card-border{
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.card-body-image{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.toal-card-area{
+    background: #202020;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*--==========Template Menu Ends==========--*/
+
+/*--==========Template Customer Reviews Starts==========--*/
+.customer-sec-bg{
+    background-color: #121212;
+}
+
+.card-bg-style{
+    background-color: #202020;
+    border-radius: 15px;
+}
+/*--==========Template Customer Reviews Ends==========--*/
+
+/*--==========Template Location Starts==========--*/
+.total-location-sec-border{
+    background-color: #202020;
+    border: 1px solid #FFFFFF80;
+    border-radius: 15px;
+}
+
+.location-area-text{
+    color: #B5B5B5;
+}
+
+.location-text-style{
+    font-size: 15px;
+}
+/*--==========Template Location Ends==========--*/
+
+/*--==========Template Sign Up Offer Starts==========--*/
+.offers-area-style{
+    border-radius: 15px;
+    background-color: #4D4D4D;
+}
+/*--==========Template Sign Up Offer Ends==========--*/
+
+/*--==========Template Featutred Caregory Starts==========--*/
+.featutred-header-style{
+    color: #fff;
+    font-weight: bolder;
+}
+
+.img-box{
+    position: relative;
+}
+
+.img-box img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img-overlay{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#ffb300f5,#ffb300e1,transparent);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    border-radius: 15px;
+}
+
+.img-box:hover .img-overlay {
+    bottom: 0;
+    height: 100%;
+  }
+
+.img-text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    text-align: center;
+  }
+/*--==========Template Featutred Caregory Ends==========--*/
+
+/*--==========Template Select & order menu Starts==========--*/
+.footer-top-sec-bg{
+    background-image: url(../images/tamplate-image/section-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*--==========Template Select & order menu Ends==========--*/
+
+/*--==========Template Footer Starts==========--*/
+.footer-sec-bg{
+    background-color: #202020;
+    width: 100%;
+}
+
+.icon-color{
+  color: #959595;
+}
+/*--==========Template Footer Ends==========--*/
