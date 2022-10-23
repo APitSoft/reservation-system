@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\StoreController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\IntegrationController;
 
 
 /*
@@ -15,4 +18,9 @@ use App\Http\Controllers\DashboardController;
 |
 */
 
-Route::get('/', [DashboardController::class, 'index']);
+Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+
+Route::resource('store', StoreController::class);
+Route::resource('product', ProductController::class);
+Route::resource('integration', IntegrationController::class);
+
