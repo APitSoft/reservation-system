@@ -12,15 +12,21 @@
                         <li><a class="sidebar-header {{request()->routeIs('product.index') ? 'active' : ''}}" href="{{route('product.index')}}"><i data-feather="anchor"></i><span> MY PRODUCTS</span></a></li>
 
                         <li><a class="sidebar-header {{request()->routeIs('integration.index') ? 'active' : ''}}" href="{{route('integration.index')}}"><i data-feather="disc"></i><span>INTEGRATIONS</span></i></a></li>
+                        
+                        <li><a class="sidebar-header {{request()->routeIs('clients') ? 'active' : ''}}" href="{{route('clients')}}"><i data-feather="sidebar"></i><span>MANAGE CLIANTS</span></a></li>
 
-                        <li><a class="sidebar-header" href="manage_client.html"><i data-feather="sidebar"></i><span>MANAGE CLIANTS</span></a></li>
-                        <li><a class="sidebar-header" href="team_member.html"><i data-feather="layout"></i><span>TEAM MEMBER</span></a>
+                        <li><a class="sidebar-header {{request()->routeIs('members') ? 'active' : ''}}" href="{{route('members')}} "><i data-feather="layout"></i><span>TEAM MEMBER</span></a>
                         </li>
-                        <li><a class="sidebar-header" href="my_orders.html"><i data-feather="align-justify"></i><span>MY ORDERS</span></a></li>
-                        <li><a class="sidebar-header" href="analytics.html"><i data-feather="cloud-lightning"></i><span>ANALYTICS</span></a></li>
-                        <li><a class="sidebar-header" href="manage_customar.html"><i data-feather="clipboard"></i><span>MANAGE CUSTOMER</span></a></li>
-                        <li><a class="sidebar-header" href="manage_subscriber.html"><i data-feather="edit-3"></i><span>SUBSCRIBERS</span></a>
+
+                        <li><a class="sidebar-header {{request()->routeIs('order.index') ? 'active' : ''}}" href="{{route('order.index')}}"><i data-feather="align-justify"></i><span>MY ORDERS</span></a></li>
+                        
+                        <li><a class="sidebar-header {{request()->routeIs('analytic.index') ? 'active' : ''}}" href="{{route('analytic.index')}}"><i data-feather="cloud-lightning"></i><span>ANALYTICS</span></a></li>
+
+                        <li><a class="sidebar-header {{request()->routeIs('customer.index') ? 'active' : ''}}" href="{{route('customer.index')}}"><i data-feather="clipboard"></i><span>MANAGE CUSTOMER</span></a></li>
+
+                        <li><a class="sidebar-header {{request()->routeIs('subscriber.index') ? 'active' : ''}}" href="{{route('subscriber.index')}}"><i data-feather="edit-3"></i><span>SUBSCRIBERS</span></a>
                         </li>
+
                         <!-- settings dropdown button starts -->
                         <li><a class="sidebar-header" href="#"><i data-feather="settings"></i><span> SETTINGS</span><i class="fa fa-angle-right pull-right"></i></a>
                             <ul class="sidebar-submenu">
